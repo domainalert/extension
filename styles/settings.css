@@ -1,0 +1,65 @@
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .input-group {
+    padding-right: 8px;
+}
+
+.logo-section {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .help-link {
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 15px;
+    display: block;
+    text-align: center
+}
+
+.wrapper .input-group label {
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.wrapper input {
+    height: 30px;
+    font-size: 30px;
+    width: 100%;
+}
+
+.wrapper button {
+    margin-top: 20px;
+    height: 50px;
+    font-size: 25px;
+    min-width: 400px;
+    width: 100%;
+}
+
+#status {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
