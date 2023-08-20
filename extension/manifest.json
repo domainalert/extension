@@ -22,13 +22,16 @@
     }
   },
   "background": {
-    "service_worker": "scripts/background.js",
+    "service_worker": "background.js",
     "run_at": "document_end"
   },
-  "minimum_chrome_version": "88",
+  "minimum_chrome_version": "93",
+  "host_permissions": [
+    "https://domainalert.app/api/*"
+  ],
   "permissions": [
-    "https://domainalert.app/api/domains",
     "activeTab",
-    "storage"
+    "storage",
+    "notifications"
   ]
 }
