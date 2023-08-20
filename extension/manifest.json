@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "DomainAlert",
   "short_name": "DomainAlert",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Get notified when a domain expires or is for sale",
   "author": "Chrysanthos Prodromou",
   "homepage_url": "https://github.com/domainalert/extension",
