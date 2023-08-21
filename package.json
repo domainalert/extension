@@ -1,6 +1,6 @@
 {
   "name": "notify-domains",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get notified when a domain expires or is for sale",
   "main": "index.js",
   "keywords": [],
