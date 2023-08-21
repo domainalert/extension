@@ -23,7 +23,7 @@ export const startMonitoring = (url) => {
             triggerNotification('Please specify an api key.')
             throw new Error('No api key found.')
         }
-        return fetch('https://domainalert.app/api/domains', {
+        return fetch('https://notify.domains/api/domains', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -39,7 +39,7 @@ export const startMonitoring = (url) => {
 
 export const triggerNotification = (message) => {
     chrome.notifications.create('', {
-        title: 'DomainAlert',
+        title: 'Notify.Domains',
         message: message,
         iconUrl: 'images/icon128.png',
         type: 'basic'
